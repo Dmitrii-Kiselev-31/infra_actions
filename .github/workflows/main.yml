@@ -1,0 +1,18 @@
+└── infra_actions
+     ├── .git/ 
+     ├── .github/
+     |   ├── workflows/ <-- Директория workflow
+     |          └── main.yml <-- Файл с инструкциями
+     ├── .vscode/ 
+     ├── infra_project  
+     |   ├── manage.py
+     |   ├── infra_app/ 
+     |      └── infra_project
+     |       ├── __init__.py
+     |       ├── settings.py
+     |       ├── urls.py
+     |       └── wsgi.py
+     ├── venv/ 
+     ├── Dockerfile
+     ├── README.md  
+     └── .gitignore
