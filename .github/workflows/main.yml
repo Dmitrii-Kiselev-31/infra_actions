@@ -63,7 +63,7 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           # Выполняет pull образа с DockerHub
-          sudo docker pull dmit-kiselyov31/dd791724fb97
+          sudo docker pull dmitriikiselev31/dd791724fb97
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 dmit-kiselyov31/dd791724fb97
+          sudo docker run --rm -d -p 5000:5000 dmitriikiselev31/dd791724fb97
